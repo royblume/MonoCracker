@@ -45,7 +45,8 @@ def key_generator(encrypted_word, decoded_word):
     for i in range(len(encrypted_word)):
         if encrypted_word[i] != decoded_word[i]:
             key = {encrypted_word[i]:decoded_word[i]}
-            keys.append(key)
+            if key not in keys:
+                keys.append(key)
     return keys
 
 def main():
