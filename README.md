@@ -25,7 +25,14 @@ EXAMPLE WITH PARTIALLY DECRYPTED CIPHER:
 
 
 EXAMPLE WITH FULLY ENCRYPTED CIPHER:
-* Fully Encrypted Cipher: asdf
+* Fully Encrypted Cipher: ASDF
 * Available Substites: p,l,e,h,q,w
 * --> Decrypted message: help
 * --> Key: [{v:c}, {h:i}]
+
+
+EXAMPLE WITH PARTIALLY DECRYPTED CIPHER WITH NO SPACES:
+* Fully Encrypted Cipher: hXDpmX
+* Available Substites: e,l
+* helpme
+* hlepml
