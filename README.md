@@ -6,7 +6,7 @@ For best results, use this python script after completing frequency analysis, in
 
 Ensure dictionary.txt is present in the folder the script is in.
 
-If you do not have space separated words, remove the commented out print statement in decode_substitution to manually check for words.
+If you do not have space separated words, remove the commented out print statement in the decode_substitution function to manually check for words.
 
 ______________________________________________________________________
 ## Understanding how to use it
@@ -32,6 +32,7 @@ EXAMPLE WITH FULLY ENCRYPTED CIPHER:
 
 
 EXAMPLE WITH PARTIALLY DECRYPTED CIPHER WITH NO SPACES:
+* First remove the "#" from the print statement in the decode_substitution function
 * Fully Encrypted Cipher: hXDpmX
 * Available Substites: e,l
 * helpme
